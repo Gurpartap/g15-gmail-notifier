@@ -17,6 +17,8 @@ Option  GNU long version   Meaning
 
 #  G15 Gmail notifier
 #
+# (c) 2008 Gurpartap Singh — http://gurpartap.com
+#
 #  g15-gmail-notifier is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
 #  the Free Software Foundation; either version 2 of the License, or
@@ -60,7 +62,7 @@ def main(username, password, label, delay):
 
   for o, a in opts:
     if o in ("-h", "--help"):
-      print __doc__
+      print __doc__``
       sys.exit(0)
     elif o in ("-u", "--username"):
       username = a
