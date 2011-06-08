@@ -48,7 +48,7 @@ def main(username, password, label, delay):
   try:
     import libgmail
   except ImportError:
-    print "\033[31m" + " [31mlibgmail is missing. Get compliant package from http://myzonelabs.com/" + "\033[0;0m"
+    print "\033[31m" + " [31mlibgmail is missing." + "\033[0;0m"
     return 1
 
   try:
