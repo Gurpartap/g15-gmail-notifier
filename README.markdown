@@ -4,7 +4,12 @@
 
 ### Usage
 
-g15-gmail-notifier [OPTIONS]
+g15-gmail-notifier [[OPTIONS]]
+
+### Requirements
+
+- libgmail
+- g15message
 
 ### Examples
 
